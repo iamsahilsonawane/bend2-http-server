@@ -1,3 +1,4 @@
+
 # bend-http-server
 
 An HTTP server written in Bend2 supporting running on multi-core CPU and GPU.
@@ -7,6 +8,8 @@ source to a parallel CPU program and a GPU kernel. This project uses that
 to run a real HTTP/1.1 server across every core (and the GPU, where it
 helps) -- and proves, in `LAWS.bend`/`PROOF.bend`, that splitting the work
 across hardware never changes the answer.
+
+https://github.com/user-attachments/assets/d31c3356-b942-4a69-852b-25a7d211e0b9
 
 ## Layout
 
